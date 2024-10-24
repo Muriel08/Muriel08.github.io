@@ -1,0 +1,14 @@
+{
+  "name": "muriel08.github.io",
+  "version": "1.0.0",
+  "description": "portafolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eins-modal": "^2.2.2"
+  }
+}
