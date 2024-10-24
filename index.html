@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/eins-modal/dist/css/eins-modal.min.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="navbar container">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#briefcase">Portafolio</a></li>
+                <li><a href="#about-me">Sobre mi</a></li>
+
+            </ul>
+        </nav> 
+    </div>
+</header>
+
+<section>
+    <div class="hero" id="inicio">
+        <div class="container"> 
+        <img src="/img/astronomy-1867616_1280.jpg" alt="">
+        </div>
+    </div>    
+    <div class="profile">
+        <div class="square"></div>
+        <div class="circle-trans"></div>
+        <div class="circle"></div>
+        <div class="profile-img">
+            <img src="/img/descarga.jpg" alt="">
+        </div>
+        <div class="square-text">Tamara Cañas</div>
+        <div class="square-text-2">
+            <span>Lic. en casi todo</span>
+        </div>
+        <div class="contact-icon">
+            <a href="#" target="_blank"><img src="/img/github-icon.png" alt=""></a>
+            <a href="#" target="_blank"><img src="/img/linkedin.svg" alt=""></a>
+            <a data-modal-id="message"><img src="/img/message.svg" alt=""></a>
+        </div>
+            
+        <div class="square-text-3">
+            <a href="#about-me"><span>About me |</span> Sobre Mi</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="briefcase" id="briefcase">
+    <div class="briefcase-section container">
+        <h2><span>Briefcase |</span> Portafolio</h2>
+        <div class="briefcase-grid">
+            <div><a data-modal-id="pw-portafolio"><img src="/img/Captura de pantalla 2024-10-14 235915.png" alt=""></a></div>
+            <div><a data-modal-id="pw-pizzeria"><img src="/img/Captura de pantalla 2024-10-17 102232.png" alt=""></a></div>
+            <div><a data data-modal-id="pw-portal"><img src="/img/Captura de pantalla 2024-10-16 233949.png" alt=""></a></div>
+            <div><a data-modal-id="pw-control-dengue"><img src="/img/Captura de pantalla 2024-10-17 005241.png" alt=""></a></div>
+            <div><a data-modal-id="pw-perfumeria"><img src="/img/Captura de pantalla 2024-10-17 162439.png" alt=""></a></div>
+            
+        </div>
+    </div>
+</section>
+
+<section class="skills">
+    <div class="skill container">
+        <div class="knowledge-part">
+            <h2><span>Knowledge |</span> Conocimientos</h2>
+            <div class="knowledge">
+                <div>
+                    <img src="/img/html-icon.png" alt="">
+                    <h3>HTML</h3>
+                </div>
+                <div>
+                    <img src="/img/css-icon.png" alt="">
+                    <h3>CSS</h3>
+                </div>
+                <div>
+                    <img src="/img/js-icon.png" alt="">
+                    <h3>Javascript</h3>
+                </div>               
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="about" id="about-me">
+    <div class="about-flex container">
+        <div class="about-info">
+            <p>VPN(Virtual Private Network) Una red privada virtual (RPV),
+                 en inglés: Virtual Private Network (VPN), 
+                 es una tecnología de red de computadoras que permite una extensión segura de la red de área local (LAN) 
+                 sobre una red pública o no controlada como Internet. </p>
+            <p><br>Permite que la computadora en la red envíe y reciba datos sobre redes compartidas 
+                o públicas como si fuera una red privada con toda la funcionalidad, 
+                seguridad y políticas de gestión de una red privada. Esto se realiza estableciendo una conexión virtual 
+                punto a punto mediante el uso de conexiones dedicadas, cifrado o la combinación de ambos métodos</p>
+        </div>
+        <div class="social">
+            <a href="#"><img src="" alt=""></a>
+            <a href="#"><img src="" alt=""></a>
+            <a href="#"><img src="" alt=""></a>
+            <a href="#"><img src="" alt=""></a>
+        </div>   
+    </div>
+</section>
+
+<footer>
+    <p> 2020 Copyright Designed by ..</p>
+</footer>
+
+<!-- Modal section -->
+
+<div id="myModal" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+      <div class="eins-modal-close"></div>
+  
+      EJEMPLO DE PRUEBA
+      
+      <button class="eins-modal-close-button">OK</button>
+    </div>
+</div> 
+<!-- Modal section -->
+
+<div id="pw-portafolio" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+        <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="/img/Captura de pantalla 2024-10-23 231416.png" alt="">
+                    <img src="/img/Captura de pantalla 2024-10-24 004121.png" alt="">
+
+                </div>
+                <div class="eins-modal-text">
+                    <p>Portafolio Web Personal, Construido con HTML, CSS Y JS. <br>Se usó librerias de npm y se optimizó la página con webpack. Se uso estructura SEO básica para la semántica en buscadores
+                    </p>
+                    <p> Se documentó el proceso paso a paso de como crear este portafolio desde cero, puedes ver el video desde el enlace del canal de youtube.
+                    </p>
+                    <p>También puedes acceder a él desde el repositorio de github</p>
+                    <div class="eins-modal-text-2">
+                        <span>ENLACE:</span><a href="/">https://github.com/Muriel08/Dengue-CRUD.git</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/html-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+                            <img src="/img/js-icon.png" alt="">
+                            <img src="/img/npm-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="pw-pizzeria" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+        <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="/img/Captura de pantalla 2024-10-23 232853.png" alt="">
+                    <img src="/img/Captura de pantalla 2024-10-23 232912.png" alt="">
+
+                </div>
+                <div class="eins-modal-text">
+                    <p>Robodacta Tienda de Robótica didática México. Actualización 2022 
+                    E-commerce de artículos de robótica para proyectos de ingeniería
+                    motores, sensores, tarjetas, kit de robótica y más.</p>
+                    <p>Actualmente se encuentra en desarrollo con funcionalidad de puntos 
+                        de recompensa, emails personalizados en los pedidos. Y se implementarán aplicaciones de 
+                        seguimiento para evaluar movimiento en ventas. Así como estructura SEO para 
+                        posicionamiento en buscadores.
+                    </p>
+                    <div class="eins-modal-text-2">
+                        <span>ENLACE:</span><a href="https://github.com/Muriel08/PIZZERIA.git"target="_blank">https://github.com/Muriel08/PIZZERIA.git</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/wordpress-icon.png" alt="">
+                            <img src="/img/woo-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+                            <img src="/img/seo-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="pw-portal" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+        <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="/img/Captura de pantalla 2024-10-24 001634.png" alt="">
+                    <img src="/img/Captura de pantalla 2024-10-24 001601.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p> Dacorp Group- Centro autorizado Panasonic.<br> Creación de página coorporativa.<br>Es una empresa que ofrece servicios de instalación, mantenimiento y venta de repuestos Panasonic.  </p>
+                    <p> Optimización con SEO e implementación de SEM para posicionamiento</p>
+                    <div class="eins-modal-text-2">
+                        <span>ENLACE:</span><a href="https://dacorp.net"target="_blank">https://dacorp.net</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/html-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+                            <img src="/img/js-icon.png" alt="">
+                            <img src="/img/seo-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="pw-control-dengue" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+        <div class="pw-content">
+            <div class="eins-modal-close"></div>    
+            <div class="eins-modal-preview">
+                <img src="/img/Captura de pantalla 2024-10-23 230235.png" alt="">
+                <img src="/img/Captura de pantalla 2024-10-24 003814.png" alt="">
+
+            </div>
+            <div class="eins-modal-text">
+                <p> Página corporativa de Ionic Pro- Página de lanzamiento de producto Ionic Uv Purifier.  </p>
+                <p> Un purificador por UV (luz ultravioleta) que se coloca en los aires acondicionados y elimina virus y bacterias presentes en el ambiente</p>
+                <div class="eins-modal-text-2">
+                    <span>Enlace:</span> <a href="https://ionicpro.net"target="_blank">https://ionicpro.net</a>
+                </div>
+                <div class="eins-modal-text-3">
+                    <span>Tecnologías Utilizadas:</span> 
+                    <div class="eins-modal-tec">
+                        <img src="/img/html-icon.png" alt="">
+                        <img src="/img/css-icon.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="pw-perfumeria" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+        <div class="pw-content">
+            <div class="eins-modal-close"></div>    
+            <div class="eins-modal-preview">
+                <img src="/img/Captura de pantalla 2024-10-23 230208.png" alt="">
+                <img src="/img/Captura de pantalla 2024-10-24 005253.png" alt="">
+
+            </div>
+            <div class="eins-modal-text">
+                <p>Repar Ind. Sa, Página coorporativa para empresa panameña enfocada en reparaciónes y sistemas industriales.  </p>
+                <p> Tienen dos ramas importantes. Instalación de Energía Solar e Instalación, mantenimiento y reparación de  Tecles y montacargas.</p>
+                <div class="eins-modal-text-2">
+                    <span>Enlace:</span> <a href="https://reparind.com"target="_blank">https://reparind.com</a>
+                </div>
+                <div class="eins-modal-text-3">
+                    <span>Tecnologías Utilizadas:</span> 
+                    <div class="eins-modal-tec">
+                        <img src="/img/wordpress-icon.png" alt="">
+                        <img src="/img/css-icon.png" alt="">
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+
+
+
+
+<div id="message" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+        <div class="eins-modal-close"></div>
+        <form  class="form"action="https://formspree.io/f/mwkyvalb"method="POST">
+            <label>Tu Correo Electrónico:
+            <input type="email" name="_replyto">
+            </label>
+
+            <label>Tu Mensaje:
+            <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+
+
+
+<script src="node_modules/eins-modal/dist/js/eins-modal.min.js"></script> 
+
+
+</body>
+</html>
